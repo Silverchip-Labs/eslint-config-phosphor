@@ -15,7 +15,7 @@ To start using eslint-config-phosphor, you need to follow these simple steps:
 1. Install the package as a development dependency in your project:
 
 ```bash
-npm install --save-dev eslint-config-phosphor
+npm install --save-dev @silverchip-labs/eslint-config-phosphor
 ```
 
 2.    Create an .eslintrc file in the root of your project or update your existing .eslintrc file.
