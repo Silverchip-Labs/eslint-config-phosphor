@@ -4,9 +4,9 @@ eslint-config-phosphor is a custom ESLint configuration package that provides a 
 
 ## Features
 
-    Consistent Code Style: eslint-config-phosphor helps maintain a consistent code style across your codebase, ensuring that all team members follow the same conventions and best practices.
-    Code Quality Assurance: The package includes a set of rules that helps identify potential errors, bugs, and problematic patterns in your code, helping you write higher-quality and more reliable software.
-    Extensible and Customizable: eslint-config-phosphor provides a solid foundation for linting your code, but it also allows you to customize and extend the rules to fit your project's requirements. You can easily override rules, add your own rules, or include other plugins and shareable configs.
+  * Consistent Code Style: eslint-config-phosphor helps maintain a consistent code style across your codebase, ensuring that all team members follow the same conventions and best practices.
+  * Code Quality Assurance: The package includes a set of rules that helps identify potential errors, bugs, and problematic patterns in your code, helping you write higher-quality and more reliable software.
+  * Extensible and Customizable: eslint-config-phosphor provides a solid foundation for linting your code, but it also allows you to customize and extend the rules to fit your project's requirements. You can easily override rules, add your own rules, or include other plugins and shareable configs.
 
 ## Installation
 
@@ -15,7 +15,6 @@ To start using eslint-config-phosphor, you need to follow these simple steps:
 1. Install the package as a development dependency in your project:
 
 ```bash
-
 npm install --save-dev eslint-config-phosphor
 ```
 
@@ -39,7 +38,7 @@ Extending the Configuration
 
 To extend the default configuration with additional rules or configurations, modify your .eslintrc file:
 
-```json
+```jsonc
 
 {
   "extends": [
@@ -56,7 +55,7 @@ To extend the default configuration with additional rules or configurations, mod
 
 To override specific rules provided by eslint-config-phosphor, simply update the rules section in your .eslintrc file:
 
-```json
+```jsonc
 
 {
   "extends": "eslint-config-phosphor",
